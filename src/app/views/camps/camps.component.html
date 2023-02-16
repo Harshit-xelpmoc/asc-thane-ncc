@@ -1,0 +1,235 @@
+<app-header-new></app-header-new>
+  <link id="heading-font" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600;700;800;900&display=swap" media="all" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "DM Sans", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    }
+  </style>
+
+<body x-data="{'openDialogId': ''}" x-on:keydown.escape="openDialogId=''" class='font-body antialiased h-full font-body antialiased text-[#000000] bg-[#fcfcfc] dark:text-[#ffffff] dark:bg-[#031022]'>
+  <section class="body-font py-20">
+    <div class="px-5 mx-auto max-w-7xl">
+      <div class="flex flex-wrap -m-4"><a class="p-4 block md:w-1/3" href="#">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 overflow-hidden rounded-global dark:border-slate-700"><img class="w-full object-cover object-center transition-all ease-in duration-200 hover:scale-105 bg-gray-50 md:h-36 lg:h-48" alt="No alt" src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmxvZ3xlbnwwfHwwfHw%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" />
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-100">The Catalyzer</h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              <div class="flex items-center flex-wrap text-primary-500"><span class="w-6 h-6 ml-2"><svg class="w-6 h-6 ml-2" class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg></span><span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200"><span class="w-4 h-4 mr-1"><svg class="w-4 h-4 mr-1" class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg></span>
+                  <p class="">1.2K</p>
+                </span><span class="text-gray-400 inline-flex items-center leading-none text-sm"><span class="w-4 h-4 mr-1"><svg class="w-4 h-4 mr-1" class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg></span>
+                  <p class="">6</p>
+                </span></div>
+            </div>
+          </div>
+        </a><a class="p-4 block md:w-1/3" href="#">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 overflow-hidden rounded-global dark:border-slate-700"><img class="w-full object-cover object-center transition-all ease-in duration-200 hover:scale-105 bg-gray-50 md:h-36 lg:h-48" alt="No alt" src="https://images.unsplash.com/photo-1522199755839-a2bacb67c546?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGJsb2d8ZW58MHx8MHx8&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" />
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-100">The 400 Blows</h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              <div class="flex items-center flex-wrap"><span class="w-6 h-6 ml-2 text-primary-500"><svg class="w-6 h-6 ml-2 text-primary-500" class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg></span><span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200"><span class="w-4 h-4 mr-1"><svg class="w-4 h-4 mr-1" class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg></span>
+                  <p class="">1.2K</p>
+                </span><span class="text-gray-400 inline-flex items-center leading-none text-sm"><span class="w-4 h-4 mr-1"><svg class="w-4 h-4 mr-1" class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg></span>
+                  <p class="">6</p>
+                </span></div>
+            </div>
+          </div>
+        </a><a class="p-4 block md:w-1/3" href="#">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 overflow-hidden rounded-global dark:border-slate-700"><img class="w-full object-cover object-center transition-all ease-in duration-200 hover:scale-105 bg-gray-50 md:h-36 lg:h-48" alt="No alt" src="https://plus.unsplash.com/premium_photo-1661558928174-a04b38beba2f?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxvZ3xlbnwwfHwwfHw%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" />
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">CATEGORY</h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3 dark:text-gray-100">Shooting Stars</h1>
+              <p class="leading-relaxed mb-3">Photo booth fam kinfolk cold-pressed sriracha leggings jianbing microdosing tousled waistcoat.</p>
+              <div class="flex items-center flex-wrap"><span class="w-6 h-6 ml-2 text-primary-500"><svg class="w-6 h-6 ml-2 text-primary-500" class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M5 12h14"></path>
+                    <path d="M12 5l7 7-7 7"></path>
+                  </svg></span><span class="text-gray-400 mr-3 inline-flex items-center lg:ml-auto md:ml-0 ml-auto leading-none text-sm pr-3 py-1 border-r-2 border-gray-200"><span class="w-4 h-4 mr-1"><svg class="w-4 h-4 mr-1" class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                      <circle cx="12" cy="12" r="3"></circle>
+                    </svg></span>
+                  <p class="">1.2K</p>
+                </span><span class="text-gray-400 inline-flex items-center leading-none text-sm"><span class="w-4 h-4 mr-1"><svg class="w-4 h-4 mr-1" class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" viewBox="0 0 24 24">
+                      <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                    </svg></span>
+                  <p class="">6</p>
+                </span></div>
+            </div>
+          </div>
+        </a></div>
+    </div>
+  </section>
+  <div class="py-10">
+    <div class="container mx-auto px-4">
+      <div class="md:w-5/6 md:mx-auto md:max-w-2xl">
+        <h1 class="text-black text-3xl text-center font-bold dark:text-white sm:text-4xl">Blog</h1>
+        <p class="text-center text-lg mt-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout</p>
+      </div>
+    </div>
+    <div class="grid grid-cols-1 gap-3 p-4 mt-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:max-w-7xl xl:mx-auto">
+      <div class="">
+        <div class="relative"><img class="w-full rounded-global h-[500px] bg-gray-100 pt-5 xl:object-top xl:object-contain" alt="No alt" src="https://images.unsplash.com/photo-1637404230552-5ac6d76cb3a0?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDZ8fHxlbnwwfHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" />
+          <div class="absolute right-3 left-3 bottom-3"><span class="bg-primary-500 text-white tracking-wide text-sm uppercase px-2 py-1 rounded-md">Trending</span>
+            <div class="left-3 bottom-3 right-3 bg-white p-4 mt-3 rounded-global dark:bg-black">
+              <div class="flex items-center"><img class="w-10 h-10 rounded-full mr-3" alt="No alt" src="https://picsum.photos/500/300" />
+                <p class="uppercase text-sm">John Doe</p>
+              </div>
+              <h1 class="text-xl font-semibold text-black mb-4 mt-2 dark:text-white 2xl:text-2xl">The best free stock photos, royalty free images </h1><a class="flex items-center gap-x-1.5" href="#">Read more<span class="order-last">
+                  <div style="font-size:inherit;color:inherit;padding:2px"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
+                    </svg></div>
+                </span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="relative"><img class="w-full rounded-global h-[500px] bg-gray-100 pt-5 xl:object-top xl:object-contain" alt="No alt" src="https://images.unsplash.com/photo-1562774439-23ae4c68ad6d?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDE3fHx8ZW58MHx8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" />
+          <div class="absolute right-3 left-3 bottom-3"><span class="bg-primary-500 text-white tracking-wide text-sm uppercase px-2 py-1 rounded-md">Trending</span>
+            <div class="left-3 bottom-3 right-3 bg-white p-4 mt-3 rounded-global dark:bg-black">
+              <div class="flex items-center"><img class="w-10 h-10 rounded-full mr-3" alt="No alt" src="https://picsum.photos/500/300" />
+                <p class="uppercase text-sm">John Doe</p>
+              </div>
+              <h1 class="text-xl font-semibold text-black mb-4 mt-2 dark:text-white 2xl:text-2xl">The best free stock photos, royalty free images </h1><a class="flex items-center gap-x-1.5" href="#">Read more<span class="order-last">
+                  <div style="font-size:inherit;color:inherit;padding:2px"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
+                    </svg></div>
+                </span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="relative"><img class="w-full rounded-global h-[500px] bg-gray-100 pt-5 xl:object-top xl:object-contain" alt="No alt" src="https://images.unsplash.com/photo-1635399860495-2a2802a6df5e?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" />
+          <div class="absolute right-3 left-3 bottom-3"><span class="bg-primary-500 text-white tracking-wide text-sm uppercase px-2 py-1 rounded-md">Trending</span>
+            <div class="left-3 bottom-3 right-3 bg-white p-4 mt-3 rounded-global dark:bg-black">
+              <div class="flex items-center"><img class="w-10 h-10 rounded-full mr-3" alt="No alt" src="https://picsum.photos/500/300" />
+                <p class="uppercase text-sm">John Doe</p>
+              </div>
+              <h1 class="text-xl font-semibold text-black mb-4 mt-2 dark:text-white 2xl:text-2xl">The best free stock photos, royalty free images </h1><a class="flex items-center gap-x-1.5" href="#">Read more<span class="order-last">
+                  <div style="font-size:inherit;color:inherit;padding:2px"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
+                    </svg></div>
+                </span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="relative"><img class="w-full rounded-global h-[500px] bg-gray-100 pt-5 xl:object-top xl:object-contain" alt="No alt" src="https://images.unsplash.com/photo-1602335422296-6c6346ee71f8?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxwaG90by1yZWxhdGVkfDV8fHxlbnwwfHx8fA%3D%3D&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60" />
+          <div class="absolute right-3 left-3 bottom-3"><span class="bg-primary-500 text-white tracking-wide text-sm uppercase px-2 py-1 rounded-md">Trending</span>
+            <div class="left-3 bottom-3 right-3 bg-white p-4 mt-3 rounded-global dark:bg-black">
+              <div class="flex items-center"><img class="w-10 h-10 rounded-full mr-3" alt="No alt" src="https://picsum.photos/500/300" />
+                <p class="uppercase text-sm">John Doe</p>
+              </div>
+              <h1 class="text-xl font-semibold text-black mb-4 mt-2 dark:text-white 2xl:text-2xl">The best free stock photos, royalty free images </h1><a class="flex items-center gap-x-1.5" href="#">Read more<span class="order-last">
+                  <div style="font-size:inherit;color:inherit;padding:2px"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"></path>
+                    </svg></div>
+                </span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="">
+    <div class="max-w-7xl px-4 mt-16 mx-auto md:mt-24">
+      <div class="grid grid-cols-1 pb-8 text-center">
+        <h3 class="mb-6 md:text-3xl text-2xl leading-normal font-semibold">What people are saying?</h3>
+        <p class="text-slate-400 max-w-xl mx-auto">Start working with Tailwind CSS that can provide everything you need to generate awareness, drive traffic, connect.</p>
+      </div>
+      <div class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
+        <ul class="space-y-8">
+          <li class="rounded-lg shadow-lg dark:shadow-gray-800 p-6">
+            <div class="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800"><img class="h-16 w-16 rounded-full shadow dark:shadow-gray-800" alt="No alt" src="https://shreethemes.in/techwind/layouts/assets/images/client/01.jpg" />
+              <div class="pl-4"><a class="text-lg hover:text-indigo-600 duration-500 ease-in-out" href="#">Barbara McIntosh</a>
+                <p class="text-slate-400">C.E.O</p>
+              </div>
+            </div>
+            <div class="mt-6">
+              <p class="text-slate-400">I didn&#x27;t know a thing about icon design until I read this book. Now I can create any icon I need in no time. Great resource!</p>
+            </div>
+          </li>
+          <li class="rounded-lg shadow-lg dark:shadow-gray-800 p-6">
+            <div class="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800"><img class="h-16 w-16 rounded-full shadow dark:shadow-gray-800" alt="No alt" src="https://shreethemes.in/techwind/layouts/assets/images/client/05.jpg" />
+              <div class="pl-4"><a class="text-lg hover:text-indigo-600 duration-500 ease-in-out" href="#">Barbara McIntosh</a>
+                <p class="text-slate-400">C.E.O</p>
+              </div>
+            </div>
+            <div class="mt-6">
+              <p class="text-slate-400">There are so many things I had to do with my old software that I just don&#x27;t do at all with Techwind. Suspicious but I can&#x27;t say I don&#x27;t love it.</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="space-y-8 hidden sm:block">
+          <li class="rounded-lg shadow-lg dark:shadow-gray-800 p-6">
+            <div class="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800"><img class="h-16 w-16 rounded-full shadow dark:shadow-gray-800" alt="No alt" src="https://shreethemes.in/techwind/layouts/assets/images/client/02.jpg" />
+              <div class="pl-4"><a class="text-lg hover:text-indigo-600 duration-500 ease-in-out" href="#">Barbara McIntosh</a>
+                <p class="text-slate-400">C.E.O</p>
+              </div>
+            </div>
+            <div class="mt-6">
+              <p class="text-slate-400">The best part about Techwind is every time I pay my employees, my bank balance doesn&#x27;t go down like it used to. Looking forward to spending this extra cash when I figure out why my card is being declined.</p>
+            </div>
+          </li>
+          <li class="rounded-lg shadow-lg dark:shadow-gray-800 p-6">
+            <div class="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800"><img class="h-16 w-16 rounded-full shadow dark:shadow-gray-800" alt="No alt" src="https://shreethemes.in/techwind/layouts/assets/images/client/04.jpg" />
+              <div class="pl-4"><a class="text-lg hover:text-indigo-600 duration-500 ease-in-out" href="#">Barbara McIntosh</a>
+                <p class="text-slate-400">C.E.O</p>
+              </div>
+            </div>
+            <div class="mt-6">
+              <p class="text-slate-400">I&#x27;m trying to get a hold of someone in support, I&#x27;m in a lot of trouble right now and they are saying it has something to do with my books. Please get back to me right away.</p>
+            </div>
+          </li>
+        </ul>
+        <ul class="space-y-8 hidden lg:block">
+          <li class="rounded-lg shadow-lg dark:shadow-gray-800 p-6">
+            <div class="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800"><img class="h-16 w-16 rounded-full shadow dark:shadow-gray-800" alt="No alt" src="https://shreethemes.in/techwind/layouts/assets/images/client/03.jpg" />
+              <div class="pl-4"><a class="text-lg hover:text-indigo-600 duration-500 ease-in-out" href="#">Barbara McIntosh</a>
+                <p class="text-slate-400">C.E.O</p>
+              </div>
+            </div>
+            <div class="mt-6">
+              <p class="text-slate-400">I used to have to remit tax to the EU and with Techwind I somehow don&#x27;t have to do that anymore. Nervous to travel there now though.</p>
+            </div>
+          </li>
+          <li class="rounded-lg shadow-lg dark:shadow-gray-800 p-6">
+            <div class="flex items-center pb-6 border-b border-gray-100 dark:border-gray-800"><img class="h-16 w-16 rounded-full shadow dark:shadow-gray-800" alt="No alt" src="https://shreethemes.in/techwind/layouts/assets/images/client/03.jpg" />
+              <div class="pl-4"><a class="text-lg hover:text-indigo-600 duration-500 ease-in-out" href="#">Barbara McIntosh</a>
+                <p class="text-slate-400">C.E.O</p>
+              </div>
+            </div>
+            <div class="mt-6">
+              <p class="text-slate-400">This is the fourth email I&#x27;ve sent to your support team. I am literally being held in jail for tax fraud. Please answer your damn emails, this is important.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+</body>
+<app-footer></app-footer>
