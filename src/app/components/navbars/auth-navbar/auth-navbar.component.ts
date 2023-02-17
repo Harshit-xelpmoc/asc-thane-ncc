@@ -24,6 +24,20 @@ export class AuthNavbarComponent implements OnInit {
       this.dropdownPopoverShow = true;
       this.createPoppper();
     }
+
+
+    document.onreadystatechange = ()=> {
+      let lastScrollPosition = 0;
+      const navbar = document.querySelector('.navheader');
+      window.addEventListener('scroll', function(e) {
+        lastScrollPosition = window.scrollY;
+
+        if (lastScrollPosition > 100)
+          navbar.classList.add('.bg-dark');
+        else
+          navbar.classList.remove('.bg-white');
+      });
+    }
   }
 
   setNavbarOpen() {
