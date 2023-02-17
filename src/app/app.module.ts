@@ -16,6 +16,7 @@ import { AboutComponent } from './views/about/about.component';
 import { AluminiComponent } from './views/alumini/alumini.component';
 import { CampsComponent } from './views/camps/camps.component';
 import { HeaderNewComponent } from './views/header-new/header-new.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 @NgModule({
   declarations: [
     AppComponent,
@@ -34,7 +35,7 @@ import { HeaderNewComponent } from './views/header-new/header-new.component';
     CampsComponent,
     HeaderNewComponent
   ],
-  imports: [BrowserModule, AppRoutingModule],
+  imports: [BrowserModule, AppRoutingModule, NgbModule],
   providers: [],
   bootstrap: [AppComponent],
 })

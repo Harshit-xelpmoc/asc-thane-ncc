@@ -11,6 +11,7 @@ export class AuthNavbarComponent implements OnInit {
   @ViewChild("btnDropdownRef", { static: false }) btnDropdownRef: ElementRef;
   @ViewChild("popoverDropdownRef", { static: false })
   popoverDropdownRef: ElementRef;
+  scrollY: number;
 
   constructor() {}
 
